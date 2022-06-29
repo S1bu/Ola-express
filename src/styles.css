@@ -1,1 +1,30 @@
-nav{}
+/* navbar */
+.nav{
+position: absolute;
+width: 385px;
+height: 57px;
+left: 5px;
+top: 44px;
+background: linear-gradient(180deg, #D9D9D9 0%, rgba(217, 217, 217, 0) 100%);
+}
+/* Ola_Xpress__2_-removebg-preview 2 */
+.logo{
+position: absolute;
+width: 141px;
+height: 105px;
+margin-left:25%;
+margin-right:25%;
+top: 400px;
+background-image:url(/Angular13JwtAuth/src/assets/Ola_Xpress__2_-removebg-preview.png);
+}
+
+.col{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+/*------*/
+top: 500px;
+}
