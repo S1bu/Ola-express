@@ -12,6 +12,13 @@ import { BoardAdminComponent } from './board-admin/board-admin.component';
 import { BoardModeratorComponent } from './board-moderator/board-moderator.component';
 import { BoardUserComponent } from './board-user/board-user.component';
 import { authInterceptorProviders } from '../_helpers/auth.interceptor';
+import { AddComponent } from './add/add.component';
+import { DisplayComponent } from './display/display.component';
+import { EditItemComponent } from './edit-item/edit-item.component';
+import { DetailsPageComponent } from './details-page/details-page.component';
+import { ContactComponent } from './contact/contact.component';
+import { SafteyTipsComponent } from './saftey-tips/saftey-tips.component';
+import { ComplaintsComponent } from './complaints/complaints.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +29,14 @@ import { authInterceptorProviders } from '../_helpers/auth.interceptor';
     ProfileComponent,
     BoardAdminComponent,
     BoardModeratorComponent,
-    BoardUserComponent
+    BoardUserComponent,
+    AddComponent,
+    DisplayComponent,
+    EditItemComponent,
+    DetailsPageComponent,
+    ContactComponent,
+    SafteyTipsComponent,
+    ComplaintsComponent
   ],
   imports: [
     BrowserModule,
