@@ -1,9 +1,9 @@
 <div id="app">
-  <nav class="navbar navbar-expand navbar-dark bg-dark">
-    <!--<a href="#" class="navbar-brand">bezKoder</a>-->
+ <!----<nav class="navbar navbar-expand">
+    <a href="#" class="navbar-brand">Ola express</a>
     <ul class="navbar-nav mr-auto" routerLinkActive="active">
       <li class="nav-item">
-        <a href="/home" class="nav-link" routerLink="home">Home </a>
+   <a href="/home" class="nav-link" routerLink="home">Home </a> 
       </li>
       <li class="nav-item" *ngIf="showAdminBoard">
         <a href="/admin" class="nav-link" routerLink="admin">Admin Board</a>
@@ -15,12 +15,13 @@
         <a href="/user" class="nav-link" *ngIf="isLoggedIn" routerLink="user">User</a>
       </li>
     </ul>
+ 
     <ul class="navbar-nav ml-auto" *ngIf="!isLoggedIn">
       <li class="nav-item">
         <a href="/register" class="nav-link" routerLink="register">Sign Up</a>
       </li>
       <li class="nav-item">
-        <a href="/login" class="nav-link" routerLink="login">Login</a>
+      <a href="/login" class="nav-link" routerLink="login">Login</a>
       </li>
     </ul>
     <ul class="navbar-nav ml-auto" *ngIf="isLoggedIn">
@@ -32,6 +33,11 @@
       </li>
     </ul>
   </nav>
+-->
+ 
+    <a href="/home" class="nav-link" routerLink="home"><img src="https://i.postimg.cc/76GpcmTn/Ola-Xpress-2-removebg-preview.png" width="150" height="150"></a> 
+ 
   <div class="container">
     <router-outlet></router-outlet>
   </div></div>
+ 
