@@ -19,6 +19,7 @@ import { DetailsPageComponent } from './details-page/details-page.component';
 import { ContactComponent } from './contact/contact.component';
 import { SafteyTipsComponent } from './saftey-tips/saftey-tips.component';
 import { ComplaintsComponent } from './complaints/complaints.component';
+import { MessageComponent } from './message/message.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ComplaintsComponent } from './complaints/complaints.component';
     DetailsPageComponent,
     ContactComponent,
     SafteyTipsComponent,
-    ComplaintsComponent
+    ComplaintsComponent,
+    MessageComponent
   ],
   imports: [
     BrowserModule,
